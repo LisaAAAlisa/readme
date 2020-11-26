@@ -4,15 +4,15 @@
         alisaamacedo@gmail.com
         LisaAAAlisa
 ## Description 
-        This is a readme generator to easily create readme files for projects
+        this is a readme generator to easily create a readme file for a project
 ## Installation
-        pnm isntall
+        npm i install
 ## Usage 
-        npm run start
+        free to use
 ## License
         MIT
 ## Contributing
-        please contribute if you wish
+        none
 ## Tests
         npm run test
         
