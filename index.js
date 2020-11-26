@@ -74,34 +74,24 @@ var questionAry = [{
     type: 'input'
 }]
 inquirer.prompt(questionAry).then(answers => {
-        console.log(answers);
-        var renderReadMe = 
+    console.log(answers);
+    var renderReadMe =
         ` # Name
         ${answers.name}
-
-        ## Description 
+## Description 
         ${answers.description}
-
-        ## Installation
+## Installation
         ${answers.installation}
-
-        ## Usage 
+## Usage 
         ${answers.usage}
-
-        ## Credits
-        ${answers.credits}
-
-        ## License
+## License
         ${answers.license}
-
-        ## Contributing
-        ${answers.contributions}
-
-        ## Tests
+## Contributing
+        ${answers.contribution}
+## Tests
         ${answers.tests}
         `
-        
-fs.writeFile("readme.md", renderReadMe, (err) => err ? console.log(err) :console.log("success"));
+
+    fs.writeFile("demoReadme.md", renderReadMe, (err) => err ? console.log(err) : console.log("success"));
 
 });
-
