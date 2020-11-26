@@ -16,7 +16,6 @@
     *  fs.writeFile is used to generate your project's README.me file.
 3.  Technologies:
     *  JavaScript
-    *  ES6
     *  VS-Code Editor
     *  GitHub Repostory
     *  https://www.npmjs.com/
