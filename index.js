@@ -92,6 +92,6 @@ inquirer.prompt(questionAry).then(answers => {
         ${answers.tests}
         `
 
-    fs.writeFile("demoReadme.md", renderReadMe, (err) => err ? console.log(err) : console.log("success"));
+    fs.writeFile("README.md", renderReadMe, (err) => err ? console.log(err) : console.log("success"));
 
 });
