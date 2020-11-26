@@ -1,15 +1,17 @@
  # Name
-        alisa
+        Alisa Macedo
+## Contact
+        alisaamacedo@gmail.com
 ## Description 
-        a
+        I created a ReadMe Generator that you can use to easily create a README file
 ## Installation
-        a
+        please clone this repo
 ## Usage 
-        a
+        anyonce can use it
 ## License
         MIT
 ## Contributing
-        a
+        please contribute if you wish
 ## Tests
-        a
+        none
         

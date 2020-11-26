@@ -59,11 +59,6 @@ var questionAry = [{
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
 },
 {
-    message: "What command should be run to install dependencies?",
-    name: "dependencies",
-    type: "input"
-},
-{
     message: 'Contribution guidelines',
     name: 'contribution',
     type: 'input'
@@ -78,6 +73,8 @@ inquirer.prompt(questionAry).then(answers => {
     var renderReadMe =
         ` # Name
         ${answers.name}
+## Contact
+        ${answers.email}
 ## Description 
         ${answers.description}
 ## Installation
